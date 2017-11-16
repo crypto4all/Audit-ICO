@@ -1,0 +1,53 @@
+[{
+	"constant": false,
+	"inputs": [{
+		"name": "_oracleAddress",
+		"type": "address"
+	}],
+	"name": "kycOracleInterface",
+	"outputs": [],
+	"payable": false,
+	"stateMutability": "nonpayable",
+	"type": "function"
+}, {
+	"constant": false,
+	"inputs": [{
+		"name": "_clearedAddress",
+		"type": "address"
+	}],
+	"name": "clearKyc",
+	"outputs": [],
+	"payable": false,
+	"stateMutability": "nonpayable",
+	"type": "function"
+}, {
+	"anonymous": false,
+	"inputs": [{
+		"indexed": true,
+		"name": "_clearedAddress",
+		"type": "address"
+	}, {
+		"indexed": false,
+		"name": "clearanceTimestamp",
+		"type": "uint256"
+	}],
+	"name": "kycCleared",
+	"type": "event"
+}, {
+	"anonymous": false,
+	"inputs": [{
+		"indexed": true,
+		"name": "_clearedAddress",
+		"type": "address"
+	}, {
+		"indexed": false,
+		"name": "depositValue",
+		"type": "uint256"
+	}, {
+		"indexed": false,
+		"name": "depositTimestamp",
+		"type": "uint256"
+	}],
+	"name": "kycAddressDeposited",
+	"type": "event"
+}]

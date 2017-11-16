@@ -1,0 +1,11 @@
+{
+  "supertest": {
+    "smartContractAddress": "0xB119621B6BD811a62ea90778Ad76e7A1d6375ac3",
+    "oraclePrivateKey": "9c956fa65b69b7b56e3f3e4aac9bdedd1a7243f46465a2ce46c12b8bc5d6ab20",
+    "oracleAddress": "0xd0398ace76316fCB71D317AB99053D53d4bd5E8e",
+    "contractBlockHeight": 1971707,
+    "secrets": {
+      "dev_user": "nNb6XM185tn7t8bnigwcTN6szRnboSK4jVNm2BBfkjSeeZ1fGlgjeRQdks62"
+    }
+  }
+}
