@@ -1,0 +1,79 @@
+[{
+	"constant": false,
+	"inputs": [{
+		"name": "_clearedAddress",
+		"type": "address"
+	}],
+	"name": "clearKyc",
+	"outputs": [],
+	"payable": false,
+	"stateMutability": "nonpayable",
+	"type": "function"
+}, {
+	"constant": true,
+	"inputs": [],
+	"name": "oracleAddress",
+	"outputs": [{
+		"name": "",
+		"type": "address"
+	}],
+	"payable": false,
+	"stateMutability": "view",
+	"type": "function"
+}, {
+	"constant": true,
+	"inputs": [{
+		"name": "",
+		"type": "address"
+	}],
+	"name": "kycClearances",
+	"outputs": [{
+		"name": "",
+		"type": "bool"
+	}],
+	"payable": false,
+	"stateMutability": "view",
+	"type": "function"
+}, {
+	"inputs": [{
+		"name": "_oracleAddress",
+		"type": "address"
+	}],
+	"payable": false,
+	"stateMutability": "nonpayable",
+	"type": "constructor"
+}, {
+	"payable": true,
+	"stateMutability": "payable",
+	"type": "fallback"
+}, {
+	"anonymous": false,
+	"inputs": [{
+		"indexed": true,
+		"name": "_clearedAddress",
+		"type": "address"
+	}, {
+		"indexed": false,
+		"name": "clearanceTimestamp",
+		"type": "uint256"
+	}],
+	"name": "kycCleared",
+	"type": "event"
+}, {
+	"anonymous": false,
+	"inputs": [{
+		"indexed": true,
+		"name": "_clearedAddress",
+		"type": "address"
+	}, {
+		"indexed": false,
+		"name": "depositValue",
+		"type": "uint256"
+	}, {
+		"indexed": false,
+		"name": "depositTimestamp",
+		"type": "uint256"
+	}],
+	"name": "kycAddressDeposited",
+	"type": "event"
+}]
